@@ -573,6 +573,55 @@ img {
   border-radius: 50%;
 }
 
+
+
+.form{
+  width: 528px;
+  outline: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.form-text{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+ 
+  margin-bottom: 30px ;
+}
+
+.form-field {
+ 
+  width: 448px;
+  height: 40px;
+  left: 576px;
+  top: 314px;
+  margin: 0;
+  padding: 10px 20px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  
+  
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+}
+
+.form-field label {
+  margin-bottom: 5px;
+}
+
+.form-field input ::placeholder {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);;
+}
 /* Команда */
 .section-comand {
   background-color: var(--comand-color);

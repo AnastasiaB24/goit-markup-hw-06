@@ -892,9 +892,11 @@ border-radius: 4px;
   margin-right: 10px;
 }
 
-/* .icon-svg-list {
-  list-style: none;
-} */
+a {
+  margin-left: 3px;
+  text-decoration-line: underline;
+  color: var(--accent-color);
+}
 
 .title-icon {
   display: flex;

@@ -892,9 +892,9 @@ border-radius: 4px;
   margin-right: 10px;
 }
 
-a {
+.form-checkbox a {
   margin-left: 3px;
-  text-decoration-line: underline;
+  text-decoration-line:underline;
   color: var(--accent-color);
 }
 

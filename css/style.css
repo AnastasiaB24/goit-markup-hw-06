@@ -566,6 +566,9 @@ img {
   position: absolute;
   width: 30px;
   height: 30px;
+  display: flex;
+  align-items: center;
+    justify-content: center;
   top: 8px;
   right: 8px;
   background: var(--white-text-color);
@@ -680,8 +683,8 @@ color: var(--title-text-color);
 }
 
 .close-button-hover {
-  width: 11px;
-  height: 11px;
+  width: 18px;
+  height: 17px;
   
 }
 .close-button-hover {

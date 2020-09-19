@@ -612,19 +612,15 @@ img {
 }
 
 
-.form-input {
-  
-  height: 40px;
+.form-input { 
+  height: 36px;
 
   margin-bottom: 10px;
   padding-left: 43px;
-  
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  
-  
-  
+
   transition: border-color var(--transition);
   outline: none;
 }
@@ -669,7 +665,8 @@ color: var(--title-text-color);
   padding-left: 16px;
   padding-top: 12px;
   
-  height: 120px;
+  height: 104px;
+
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
@@ -730,23 +727,38 @@ border-radius: 4px;
  align-items: center;
 }
 
+.checkbox{
+  width: 16px;
+  height:  15px;
+}
+
 .checkbox-icon{
   
   display: flex;
   align-items: center;
-  width: 18px;
-  height: 18px;
+
+  width: 12px;
+  height: 11px;
   margin-right: 7px;
 
   border: 2px solid var(--primary-text-color);
   border-radius: 4px;
+  
 }
 
-.checkbox:checked + .checkbox-icon {
+.checkbox:checked ~ .checkbox-icon {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
   background-origin: border-box;
 }
+
+.checkbox-icon:checked {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  background-origin: border-box;
+}
+
+
 /* Команда */
 .section-comand {
   background-color: var(--comand-color);

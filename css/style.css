@@ -616,6 +616,7 @@ img {
   height: 36px;
 
   margin-bottom: 10px;
+ 
   padding-left: 43px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -733,28 +734,24 @@ border-radius: 4px;
 }
 
 .checkbox-icon{
-  
-  display: flex;
-  align-items: center;
 
   width: 12px;
   height: 11px;
   margin-right: 7px;
+  margin-left: 14px;
 
   border: 2px solid var(--primary-text-color);
   border-radius: 4px;
   
 }
 
-.checkbox:checked ~ .checkbox-icon {
+.checkbox:checked + .checkbox-icon {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
   background-image: url(../img/icon-check.svg);
   background-origin: border-box;
   
 }
-
-
 
 /* Команда */
 .section-comand {

@@ -625,7 +625,7 @@ img {
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  height: 40px;
+  height: 36px;
   transition: border-color var(--color-icon);
   outline: none;
   width: 402px;
